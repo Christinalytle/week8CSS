@@ -16,7 +16,7 @@ h1 {
 
 h2 {
     font-family: 'Sacramento', cursive;
-    font-size: 30px; 
+    font-size: 50px; 
     margin: 5px; 
     padding: 0px; 
     text-align: center;
@@ -125,6 +125,7 @@ a {
     width: 100%; 
     margin-top: 20px;
 }
+
 
 .intro img {
     position: absolute; 
