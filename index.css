@@ -1,0 +1,379 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* width: 940px;  */
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px; 
+    text-align: center;
+    margin: 0px; 
+    padding: 0px; 
+
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 30px; 
+    margin: 5px; 
+    padding: 0px; 
+    text-align: center;
+
+}
+
+/* .top {
+    top: 0px; 
+    width: 940px; 
+
+} */
+
+.navigation { 
+    float: right; 
+    margin-top: 80px; 
+    margin-right: 80px; 
+    display: block; 
+    z-index: 8; 
+}
+
+
+.navigation li {
+    display: inline; 
+    padding: 5px;  
+    font-size: 20px; 
+}
+
+a {
+    color: black;
+    text-decoration: none;  
+}
+
+.header {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: left; 
+    margin-left: 100px; 
+    z-index: 10;
+}
+
+
+.header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px; 
+    line-height: 10px;
+    padding-left: 80px; 
+}
+
+.header h1 {
+    padding-left: 80px; 
+}
+
+.welcome {
+    display: relative;  
+    padding-top: 20px;
+    width: 100%; 
+}
+
+.welcome img {
+    display: absolute; 
+    height: auto; 
+    width: 100%; 
+}
+
+.welcome h2 {
+    position: absolute; 
+    margin-top: 200px; 
+    width: 100%; 
+    font-size: 80px; 
+    color: black; 
+    text-shadow: 1px 1px white
+}
+
+.about {
+    position: relative; 
+    width: 100%
+}
+
+.about img {
+    position: absolute; 
+    width: 100%; 
+    height: auto; 
+}
+
+.about h2 {
+    position: absolute; 
+    width: 100%; 
+    font-size: 80px; 
+    color: black; 
+    z-index: 9;
+}
+
+.about:hover p { 
+    position: absolute; 
+    margin-top: 100px; 
+    height: auto; 
+    width: 100%; 
+    font-size: 25px; 
+    color: black;
+    z-index: 9; 
+    background-color: rgba(255, 255, 255, 0.7);  
+    padding: 20px; 
+}
+
+.intro {
+    width: 100%; 
+    margin-top: 20px;
+}
+
+.intro img {
+    position: absolute; 
+    width: 100%;
+    height: auto; 
+    opacity: 50%;
+}
+
+.intro p {
+   position: absolute; 
+    width: 100%; 
+    font-size: 30px; 
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px; 
+}
+.skills{
+    margin-top: 300px;
+    margin-right: 200px; 
+    margin-left: 200px; 
+ 
+}
+
+.skills li {
+    margin: 5px 0px 0px 0px; 
+    vertical-align: text-top;
+}
+
+.table {
+    margin-right: 0%; 
+}
+
+th {
+    border-top: 1px solid #233423;
+    border-bottom: 1px solid #233423;
+}
+
+td {
+    border-bottom: 1px solid #233423;
+}
+
+.form p {
+    text-align: center;
+}
+
+
+.BTS {
+    display: block; 
+    width: 30%; 
+}
+
+.header2 h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 60px; 
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.header2 { 
+    position: relative; 
+}
+
+.header2 img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+.resume {
+    margin-right: 120px; 
+    margin-left: 120px; 
+}
+
+.resume h2 {
+    font-size: 60px; 
+}
+
+.top10 {
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+
+.top10 h4 {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center; 
+    line-height: 1px;
+    
+}
+
+.top5 {
+    position: relative; 
+    align-items: center;
+    border: 2px solid black;
+    height: 300px; 
+    width: 600px; 
+    margin: 0 auto; 
+}
+
+.top5 img {
+    position: inline-block; 
+    float: left; 
+    width: 300px; 
+    height: 300px; 
+}
+
+.top5 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 125px;
+    line-height: 22px; 
+    text-decoration: underline;
+  
+}
+
+.top10 h3 {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px; 
+    font-weight: bold; 
+    text-align: center; 
+    line-height: 5px;
+}
+
+#goblin {
+    padding: 2px; 
+    
+}
+
+#goblin figure {
+    float: left; 
+    width: 290px; 
+    height: 200px; 
+    padding: 5px; 
+    margin: 20px; 
+   
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+  }
+
+#Healer {
+   
+   padding: 2px; 
+}
+
+#Healer figure {
+    float: right; 
+    width: 290px; 
+    height: 200px; 
+    padding: 5px; 
+    margin: 20px; 
+   
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+  }
+
+#Prince {
+    
+    padding: 2px; 
+ }
+ 
+ #Prince figure {
+     float: left; 
+     width: 290px; 
+     height: 200px; 
+     padding: 5px; 
+     margin: 20px; 
+    
+ }
+ 
+ figure img {
+     width: 100%;
+     height: auto;
+   }
+
+#Star {
+   
+    padding: 2px; 
+ }
+ 
+ #Star figure {
+     float: right; 
+     width: 290px; 
+     height: 200px; 
+     padding: 5px; 
+     margin: 20px; 
+    
+ }
+ 
+ figure img {
+     width: 100%;
+     height: auto;
+   }
+
+#secretary {
+
+    padding: 2px; 
+ }
+ 
+ #secretary figure {
+     float: left; 
+     width: 290px; 
+     height: 150px; 
+     padding: 5px; 
+     margin: 20px; 
+ }
+ 
+ figure img {
+     width: 100%;
+     height: auto;
+   }
+
+.tech {
+    padding: 2px; 
+ }
+ 
+ #search {
+     width: 290px; 
+     height: 300px; 
+     padding: 5px; 
+     float: right; 
+ }
+ 
+ figure img {
+     width: 100%;
+     height: auto;
+   }
+
+   #startup {
+    width: 290px; 
+    height: 300px; 
+    padding: 5px;  
+    float: left; 
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+  }
